@@ -14,6 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/inputdata/blobs/landing/",
+			"blobPathEndsWith": ".csv",
 			"ignoreEmptyBlobs": true,
 			"scope": "/subscriptions/30e99414-3480-47ea-a9b3-b44d3529b136/resourceGroups/project2/providers/Microsoft.Storage/storageAccounts/azureprojectusingdb",
 			"events": [
